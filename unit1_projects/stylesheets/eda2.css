@@ -1,0 +1,35 @@
+body {
+	margin: auto;
+}
+
+.wrap {
+	margin: auto;
+	width: 80%;
+	background-color: #fee;
+}
+
+.header {
+	height: 130px;
+	background-color: #ddd;
+}
+
+.body {
+	height: auto;
+	min-height: 300px;
+	background-color: #fcc;
+}
+
+.footer {
+	height: 80px;
+}
+
+.content-left {
+	height: 300px;
+	background-color: #fea;
+	width: 50%;
+	float: left;
+}
+.content-right {
+	height: 300px;
+	background-color: #faa;
+}
