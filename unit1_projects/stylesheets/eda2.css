@@ -6,6 +6,7 @@ body {
 	margin: auto;
 	width: 80%;
 	background-color: #fee;
+	padding: 5px;
 }
 
 .header {
@@ -24,12 +25,29 @@ body {
 }
 
 .content-left {
-	height: 300px;
+	height: auto;
+	min-height: 150px;
 	background-color: #fea;
 	width: 50%;
 	float: left;
 }
 .content-right {
-	height: 300px;
+	height: auto;
+	min-height: 150px;
 	background-color: #faa;
+}
+
+#sidebar {
+	background-color: #a7a7a7;
+    float: left;
+    padding: 5px;
+    width: 20%;
+}
+#sidecontent {
+	border: 1px solid;
+	background-color: #dcceee;
+    float: right;
+    padding: 10px;
+    position: relative;
+    width: 75%;
 }
