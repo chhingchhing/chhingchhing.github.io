@@ -4,37 +4,46 @@ body {
 
 .wrap {
 	margin: auto;
-	width: 80%;
+	width: 90%;
 	background-color: #fee;
 	padding: 5px;
 }
 
 .header {
-	height: 130px;
-	background-color: #ddd;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    height: 130px;
+    text-align: center;
 }
 
 .body {
 	height: auto;
-	min-height: 300px;
-	background-color: #fcc;
+	margin: 10px 0;
 }
 
 .footer {
+	background-color: #eee;
+	border: 1px solid;
 	height: 80px;
+	text-align: center;
 }
 
 .content-left {
-	height: auto;
-	min-height: 150px;
-	background-color: #fea;
-	width: 50%;
-	float: left;
+    background-color: #fea;
+    float: left;
+    height: auto;
+    min-height: 150px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
 }
+
 .content-right {
-	height: auto;
-	min-height: 150px;
-	background-color: #faa;
+    background-color: #faa;
+    height: auto;
+    min-height: 150px;
+    padding: 5px;
+    text-align: center;
 }
 
 #sidebar {
@@ -50,4 +59,13 @@ body {
     padding: 10px;
     position: relative;
     width: 75%;
+}
+
+ul.left-menu li > a:hover {
+    color: white;
+}
+
+.clear {
+	clear: both;;
+	height: 10px;
 }
