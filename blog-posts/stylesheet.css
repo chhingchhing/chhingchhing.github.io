@@ -1,0 +1,53 @@
+body {
+	margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+	margin: auto;
+	width: 90%;
+	background-color: #fee;
+	padding: 5px;
+}
+
+.header {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    height: 130px;
+    text-align: center;
+}
+
+.body {
+	height: auto;
+	margin: 10px 0;
+}
+
+.footer {
+	background-color: #eee;
+	border: 1px solid;
+	height: 80px;
+	text-align: center;
+}
+
+.img-site {
+    float: left;
+    width: 49%;
+}
+
+.describe-site {
+    float: right;
+    width: 49%
+}
+
+p {
+    padding: 5px;
+}
+
+img {
+    width: 96%;
+    margin: 0 auto;
+    padding: 5px;
+}

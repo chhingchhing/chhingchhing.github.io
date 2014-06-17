@@ -13,3 +13,21 @@ body {
 .p_blue {
 	color: blue;
 }
+
+a {
+	text-decoration: none;
+}
+
+ul.left-menu > li:first-child, 
+ul.left-menu > li:first-child > a {
+    color: #ff0000;
+}
+
+ul.left-menu li:last-child, 
+ul.left-menu li:last-child > a {
+    color: #ffd700;
+}
+
+ul.left-menu li > a:hover {
+    color: white;
+}
