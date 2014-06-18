@@ -84,3 +84,17 @@ ul.left-menu li:last-child > a {
 ul.left-menu li > a:hover {
     color: white;
 }
+
+.img-site {
+    float: left;
+    width: 49%;
+}
+.describe-site {
+    float: right;
+    width: 49%
+}
+img {
+    width: 96%;
+    margin: 0 auto;
+    padding: 5px;
+}
