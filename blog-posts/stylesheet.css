@@ -104,3 +104,13 @@ h4 {
     margin: auto;
     width: 35%;
 }
+
+@media screen and (max-width: 590px) {
+    .p-describe {
+        width: 96%;
+    }
+    img.img-cultural {
+        margin-right: 0 15%;
+        width: 65%;
+    }
+}
