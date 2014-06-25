@@ -11,3 +11,10 @@
 .describe-site {
 	width: 33%;
 }
+h4.h4-fieldset {
+	font-size: 1.2em;
+}
+
+fieldset#topic {
+	background-color: #fdf5f5;
+}
