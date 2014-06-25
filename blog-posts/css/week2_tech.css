@@ -1,0 +1,13 @@
+.img-site.img-week2 > img {
+	display: inline;
+    margin-left: 5px;
+    width: 47%;
+}
+
+.img-site {
+	width: 65%;
+}
+
+.describe-site {
+	width: 33%;
+}
