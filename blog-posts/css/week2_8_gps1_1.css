@@ -1,0 +1,182 @@
+body {
+	margin: auto;
+	text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+	margin: auto;
+	width: 90%;
+	background-color: #fee;
+	padding: 5px;
+}
+
+.header {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    height: 130px;
+    text-align: center;
+}
+
+.body {
+	height: auto;
+	margin: 10px 0;
+}
+
+.footer {
+    background-color: #eeeeee;
+    border: 1px solid #d9d9d9;
+    border-radius: 30px 30px 0 0;
+    height: 80px;
+    text-align: center;
+}
+
+.img-site {
+    float: left;
+    width: 49%;
+}
+
+.describe-site {
+    float: right;
+    width: 49%
+}
+
+p {
+    padding: 5px 10px;
+}
+
+img {
+    width: 96%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+img.img-cultural {
+    padding: 14px 5px;
+    width: 30%;
+}
+
+h1#eda {
+    color: #aaaaf4;
+    text-align: center;
+}
+
+h1#eda > span {
+    color: #bf0000;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px #2f0000;
+}
+
+.header-cultural {
+    background-color: #ddd;
+    border: 1px solid #cacaca;
+    height: auto;
+    text-align: center;
+}
+ 
+h4, p {
+    margin-left: 10px;
+}
+
+.p-describe > p:first-child {
+    text-indent: 40px;
+}
+
+.p-describe {
+    float: left;
+    padding: 5px;
+    width: 66%;
+}
+
+h4 {
+    font-size: 1.6em;
+    color: #aaaaf4;
+}
+#after_eda {
+    border: 1px dashed #DDDDDD;
+    border-radius: 2px;
+}
+#h_eda {
+    margin: auto;
+    width: 35%;
+}
+
+@media screen and (max-width: 590px) {
+    .p-describe {
+        width: 96%;
+    }
+    img.img-cultural {
+        margin-right: 0 15%;
+        width: 65%;
+    }
+}
+
+div#next_eda {
+    background-color: #eeeeee;
+    border: 1px dotted;
+    float: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 75%;
+}
+
+.nav {
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    border-radius: 0 15px 15px 0;
+    width: 22%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul.left-menu > li {
+    list-style: none;;
+}
+
+ul.left-menu > li:first-child, 
+ul.left-menu > li:first-child > a {
+    color: #ff0000;
+}
+
+ul.left-menu li:last-child, 
+ul.left-menu li:last-child > a {
+    color: #ffd700;
+}
+
+ul.left-menu li > a:hover {
+    color: #9f9f9f;
+}
+
+img#img-cultural {
+    padding: 14px 5px;
+    width: 60%;
+}
+
+.img-site.img-week2 > img {
+	display: inline;
+    margin-left: 5px;
+    width: 47%;
+}
+
+.img-site {
+	width: 65%;
+}
+
+.describe-site {
+	width: 33%;
+}
+h4.h4-fieldset {
+	font-size: 1.2em;
+}
+
+fieldset#topic {
+	background-color: #fdf5f5;
+	border-radius: 5px;
+}

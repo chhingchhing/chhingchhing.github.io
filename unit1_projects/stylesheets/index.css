@@ -4,14 +4,14 @@ div#next_eda {
     float: right;
     margin-bottom: 10px;
     padding: 5px;
-    width: 68%;
+    width: 75%;
 }
 
 .nav {
     background-color: #eeeeee;
     border: 1px solid #dddddd;
     border-radius: 0 15px 15px 0;
-    width: 28%;
+    width: 22%;
 }
 
 a {
