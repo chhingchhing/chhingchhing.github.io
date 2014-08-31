@@ -115,6 +115,16 @@ h4 {
     margin: 0 10px 0 0;
 }
 
+@media screen and (max-width: 760px) {
+	.p-describe {
+		width: 45%;
+	}
+	
+	img#img-cultural {
+		width: 90%;
+	}
+}
+
 @media screen and (max-width: 590px) {
     .p-describe {
         width: 96%;
@@ -124,3 +134,12 @@ h4 {
         width: 65%;
     }
 }
+
+img#img-cultural {
+	width: 95%;
+}
+
+.p-describe {
+	width: 50%;
+}
+
